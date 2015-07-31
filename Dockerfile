@@ -4,6 +4,7 @@
 FROM debian:jessie
 
 MAINTAINER Kyle Manna <kyle@kylemanna.com>
+#Modified by Anton Zavrin for LDAP support
 
 RUN apt-get update && \
     apt-get install -y openvpn openvpn-auth-ldap iptables git-core && \
