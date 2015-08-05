@@ -1,9 +1,10 @@
 # Original credit: https://github.com/jpetazzo/dockvpn
+# Kyle Manna <kyle@kylemanna.com>
 
 # Leaner build then Ubunutu
 FROM debian:jessie
 
-MAINTAINER Kyle Manna <kyle@kylemanna.com>
+MAINTAINER Anton Zavrin <azavrin@myvest.com>
 #Modified by Anton Zavrin for LDAP support
 
 RUN apt-get update && \
